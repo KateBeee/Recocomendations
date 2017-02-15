@@ -107,7 +107,7 @@ recc_data_test <- ratings_movies[test_ind, ]
 recommender_models <- recommenderRegistry$get_entries(dataType =
 "realRatingMatrix")
 recommender_models$IBCF_realRatingMatrix$parameters
-#k - сколко похожих фиьмов хотим
+#k - сколько похожих фиьмов хотим
 ```
 
 Построим рекомендательную модель
